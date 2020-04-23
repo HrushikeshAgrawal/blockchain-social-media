@@ -14,8 +14,8 @@ npm install OR yarn install
 ### Prerequisites
 
 Following accounts and links will be needed for you to run the app locally.
-- Infura account and rinkeby test link from it. [Infura Home Page](https://infura.io/)
-- Metamask account and its secret. [Metamask chrome extension](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en)
+- Infura account and rinkeby test link from it. Get it from [Infura Home Page](https://infura.io/)
+- Metamask account and its secret. Get it from [Metamask chrome extension](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en)
 
 ### Initial Setup
 
@@ -26,6 +26,7 @@ After getting the renkeby link from infura and metamask secret, update the follo
 
 Open the terminal and run `npm run compile` and then `npm run deploy`
 After successfull deployment, copy the address of deployed contract and do the final change:
+
 4. /src/ethereum/socialMedia.js line 6 `"Address of deployed contract"`
 
 ## Running the app
