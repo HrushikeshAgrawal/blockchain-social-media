@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  background-color: #353a40;
+  border-bottom: 2px solid #17a2b8;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0 5vw;
 }
 
-.App-link {
-  color: #61dafb;
+.header div {
+  flex: 1;
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.header h1 {
+  color: #17a2b8;
+}
+
+.header p {
+  color: #fff;
+  margin: auto;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.header img {
+  margin: auto;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+.hiddenSpinner {
+  background-image: url("./components/spinner.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35vh;
+}
+
+.post {
+  background-color: #eee;
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+}
+
+.postDetails {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.tips {
+  display: flex;
+}
+
+.tips h3 {
+  flex: 1;
+}
+
+.tips button {
+  margin: auto;
+  height: 5vh;
+  padding: 10px;
+  background-color: #17a2b8;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  margin-right: 5vw;
+}
+
+.newPost h1 {
+  padding: 10px;
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.newPost textarea {
+  width: 98%;
+  padding: 10px;
+  height: 12vh;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.newPost button {
+  height: 5vh;
+  padding: 10px 20px;
+  background-color: #353a40;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+@media (max-width: 950px) {
+  .avatar {
+    height: 80px;
+    width: 80px;
   }
 }
