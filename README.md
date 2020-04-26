@@ -35,3 +35,6 @@ Run `npm start` in your terminal and wait for the app to start.
 If the app dosent open up on its own, browse to http://localhost:3000/ in your chrome browser.
 
 ## Make sure you are on Rinkeby Test Network on your metamask account and enjoy the app!
+
+## App Demo - 
+![Gif not supported...](public/demo.gif)
