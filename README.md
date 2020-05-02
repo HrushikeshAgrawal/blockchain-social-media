@@ -2,6 +2,9 @@
 
 A social media platform which works on the Ethereum Blockchain (Rinkeby test network). You get paid with ether whenever someone likes your post and tips it.
 
+## App Demo - 
+![Gif not supported...](public/demo.gif)
+
 ## Getting Started
 
 To run the app on your local machine, clone the repository by typing following commands in your terminal.
@@ -35,6 +38,3 @@ Run `npm start` in your terminal and wait for the app to start.
 If the app dosent open up on its own, browse to http://localhost:3000/ in your chrome browser.
 
 ## Make sure you are on Rinkeby Test Network on your metamask account and enjoy the app!
-
-## App Demo - 
-![Gif not supported...](public/demo.gif)
