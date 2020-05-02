@@ -9,8 +9,6 @@ To run the app on your local machine, clone the repository by typing following c
 git clone https://github.com/HrushikeshAgrawal/blockchain-social-media.git
 cd blockchain-social-media
 npm install OR yarn install
-cd client
-npm install OR yarn install
 ```
 
 ### Prerequisites
